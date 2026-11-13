@@ -150,7 +150,7 @@ Leon"""
 
 # Main App
 st.title("🏗️ Basin Signal Architect")
-st.markdown("### GTM Operating System for Technical Founders")
+st.markdown("### Rule-based signal review for GTM teams")
 st.markdown("---")
 
 # Instructions
@@ -265,13 +265,12 @@ else:
     # Demo section
     st.markdown("### 🎬 Demo")
     st.markdown("""
-    This tool transforms raw lead lists into prioritized attack lists:
-    
-    **Before**: 500 generic leads from Apollo  
-    **After**: 47 P0-priority targets with Technical DNA + High Friction signals
-    
-    **Time saved**: ~8 hours of manual research  
-    **Signal accuracy**: ~85% (based on internal testing)
+    Try `examples/synthetic-leads.csv` from this repository.
+
+    Its three fictional companies produce P0, P2, and P3 tiers using the visible keyword rules.
+    Review the checked-in `examples/synthetic-results.csv` alongside the app.
+
+    Scores are heuristics, not verified buying intent. No response-rate or time-savings result is claimed for this demo.
     """)
 
 # Footer
