@@ -2,9 +2,13 @@
 
 A Python/Streamlit prototype for reviewing a CSV lead list with transparent keyword rules, assigning priority tiers, and exporting outreach drafts.
 
-[Quick start](#quick-start) · [Synthetic input](examples/synthetic-leads.csv) · [Example output](examples/synthetic-results.csv) · [Operating context](https://basinleon.github.io/gtm-systems/)
+[Try the browser demo](https://basinleon.github.io/signal-architect/) · [Quick start](#quick-start) · [Synthetic input](examples/synthetic-leads.csv) · [Example output](examples/synthetic-results.csv) · [Operating context](https://basinleon.github.io/gtm-systems/)
 
 ![Signal analysis using three fictional companies](docs/synthetic-demo.png)
+
+## Try it in your browser
+
+[Open Signal Architect](https://basinleon.github.io/signal-architect/). Load a fictional company, change a title or description, and inspect every match and the applied priority rule. The demo runs entirely in the browser, without input uploads, analytics requests, or automatic storage. It covers scoring; the Python app below also generates template drafts and CSV exports. The browser port was checked against the Python implementation across 640 input combinations. [Inspect the browser source and tests](https://github.com/BasinLeon/basinleon.github.io/tree/main/signal-architect).
 
 ## What it does
 
